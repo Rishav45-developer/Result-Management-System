@@ -1,6 +1,20 @@
 from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
 
-client = MongoClient("mongodb://localhost:27017")
+# Load environment variables from .env
+load_dotenv()
 
-db = client["student_results"]   # ← correct database name
-collection = db["students"]      # ← correct collection name
+# Get values from .env
+MONGO_URI = os.getenv("MONGO_URI")
+DATABASE_NAME = os.getenv("DATABASE_NAME")
+COLLECTION_NAME = os.getenv("COLLECTION_NAME")
+
+# Create MongoDB client
+client = MongoClient(MONGO_URI)
+
+# Database
+db = client[DATABASE_NAME]
+
+# Collection
+collection = db[COLLECTION_NAME]

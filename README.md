@@ -1,8 +1,8 @@
-# 🎓 Result Management System
+#  Result Management System
 
 A full-stack Result Management System built using FastAPI, MongoDB, and React. The application allows administrators to manage student records, generate result reports, and efficiently maintain academic data.
 
-## 🚀 Features
+## Features
 
 * Add new student records
 * View all student results
@@ -14,7 +14,7 @@ A full-stack Result Management System built using FastAPI, MongoDB, and React. T
 * React frontend interface
 * Environment variable configuration using `.env`
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 
@@ -33,7 +33,7 @@ A full-stack Result Management System built using FastAPI, MongoDB, and React. T
 * HTML5
 * CSS3
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 ResultManagementSystem/

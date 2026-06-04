@@ -54,7 +54,7 @@ ResultManagementSystem/
 └── .gitignore
 ```
 
-## ⚙️ Installation
+##  Installation
 
 ### Clone the Repository
 

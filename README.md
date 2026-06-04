@@ -79,9 +79,9 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-MONGO_URI=mongodb://localhost:27017
-DATABASE_NAME=student_results
-COLLECTION_NAME=students
+MONGO_URI=mongodb://localhost:-----
+DATABASE_NAME=----
+COLLECTION_NAME=---
 ```
 
 Run the backend:
